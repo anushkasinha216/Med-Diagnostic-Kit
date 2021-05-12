@@ -1,0 +1,160 @@
+*{
+  box-sizing: border-box;
+}
+.column{
+  float: left;
+  width: 37.33%;
+  padding: 2px;
+}
+.row::after{
+  content: "";
+  clear both;
+  display: table;
+}
+body {margin:0;}
+#img1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: Cornsilk;
+}
+.c2{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  width:100%;
+  text-align: center;
+}
+.c2 li {
+  display: inline;
+}
+#i101{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 22px;
+}
+#i101:hover {
+  background-color: #111;
+}
+body{
+  background-color: Cornsilk;
+}
+#img2{
+  display: block;
+  margin-left: 44%;
+}
+#img3{
+  display: block;
+  margin-left: 28.2%;
+}
+#img4{
+  display: block;
+  margin-left: 70.8%;
+  position: relative;
+  top: -254px;
+}
+#img5{
+  display: block;
+  margin-left: 129%;
+  position: relative;
+  top: -258px;
+}
+#img6{
+  display: block;
+  margin-left: 70.8%;
+  position: relative;
+  top: -258px;
+}
+#id1{
+  display: block;
+  margin-right: 40%;
+  float: right;
+  position: relative;
+  top : -180px;
+}
+div.c3{
+  width: 280;
+  height: 460;
+  box-shadow: 0 4px 22px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  display: block;
+  margin-left: 600px;
+  position: relative;
+  top: 740px;
+  padding: 4px;
+}
+div.c4{
+  display: block;
+  position: relative;
+  top: -820px;
+}
+div.c5{
+  width: 280;
+  height: 460;
+  box-shadow: 0 4px 22px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+  background-color: white;
+  color: black;
+  font-size: 1vw;
+  text-align: center;
+  display: block;
+  margin-left: 1000px;
+  position: relative;
+  top: 280px;
+  padding: 0px;
+}
+div.c6{
+  display: block;
+  position: relative;
+  top:-359px;
+}
+div.c7{
+  position: relative;
+  top: 400px;
+  text-align: left;
+  background-color: #B8B8B8;
+  color: Black;
+}
+div.c8{
+  width: 500;
+  height:600;
+  position: relative;
+  top: 150px;
+  display: block;
+  margin-left: 230px;
+}
+#img7{
+  display: block;
+  margin-left: 730px;
+  position: relative;
+  top: -335px;
+}
+div.c9{
+  position: relative;
+  top: 400px;
+  text-align: right;
+  background-color: #B8B8B8;
+  color: Black;
+}
+div.c10{
+  width: 500;
+  height:600;
+  position: relative;
+  top: 230px;
+  display: block;
+  margin-left: 1150px;
+}
+#img8{
+  display: block;
+  margin-left: -930px;
+  position: relative;
+  top: -305px;
+}
